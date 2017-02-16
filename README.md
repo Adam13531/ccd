@@ -22,3 +22,9 @@ Suppose you have a "code" directory located at "C:\code" with subdirectories lik
 @cd /d "C:\code"
 @call ccd.cmd %*
 ```
+
+# Unix/Linux versions
+
+I *did* write a version in Bash that I don't mind sharing, but there are some existing projects out there that have even better behavior than the way that I match paths:
+ - https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/scd
+ - https://github.com/pavoljuhas/smart-change-directory
